@@ -1,0 +1,312 @@
+/* *{
+    margin: 0;
+    /* padding: 0px; */
+
+/* } */ 
+
+.body{
+    font-family: 'Mukta', sans-serif;
+    background:black;
+    margin: 0px;
+    
+}
+
+
+ul , li{
+    font-family: 'Mukta', sans-serif; color:black;
+    list-style: none;
+    margin: 0 auto;
+
+    /* colocar o texto alinhado */
+    text-align: right;
+    /* padding-bottom: -10px;
+    padding-top: -200px; */
+}
+
+ol , li{
+    font-family: 'Mukta', sans-serif; color: none;
+    list-style: none;
+
+    
+}
+
+li{
+    display: inline;
+}
+
+/* codigo do texto da barra menu */
+a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 50px;
+    /* padding-top: 50px; */
+    padding-left: 1px;
+    text-align: right;
+    justify-content: center;
+}
+
+a:hover{
+    color:gray;
+    font-weight: bold;
+}
+
+.menu{
+    background:white;
+    /* display: flex; */
+    justify-content: space-between;
+    /* margem entre um item e outro */
+    padding: 10px;
+    padding-bottom: 32px;
+    margin: 0px;
+    /* padding-top: 10px; */
+    /* position: fixed; */
+    
+    
+}
+
+.menu li{
+    padding-left: 50px;
+    /* width: 5%;
+    height: 150px;; */
+    display: inline-block;  
+    /* padding-right: 20px; */
+   
+}
+
+.menu img{
+    width: 140px;
+    float: left;
+    margin: 20px;
+    
+    
+}
+
+
+.estilo-imagem{
+    border: solid #2d65ff 2px;
+    border-radius: 20px;
+    margin-top: 50px;
+    
+}
+    
+.banner > h1{
+    font-weight: bold; color:white;
+    font-family: pacifica-w00-condensed,fantasy;
+    text-shadow: gray 3px 3px 0px, rgba(0, 0, 0, 0.2) 6px 6px 0px;
+    letter-spacing: 0.35em;
+    line-height: normal;
+    font-size: 61px;
+    text-align: center;
+     
+}
+    
+.banner >p{
+    text-align: center;
+    font-family: 'Mukta', sans-serif; color:white;
+    font-size: 40px;
+    letter-spacing: 0.35em;
+    line-height: normal;
+    margin: 50;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+.banner{
+    padding-top: 200px;
+    padding-bottom: 180px;
+    /* background:#ADD8E6; */
+    /* .. é para voltar uma pasta */
+    /* lembrar sempre do caminho da imagem */
+    /* link do banner a baixo */
+    background-image: url("./imagens/fund2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* margin-top: -16px; */
+    margin: 0px;
+    }
+
+.container img{
+    width: 300px;
+    padding-left: 40px;
+    width: 200px;
+    float: left;
+    
+}
+
+.container > h1{
+    text-align: left;
+    font-family: 'Mukta', sans-serif; color:white;
+    font-size: 40px;
+    letter-spacing: 0.35em;
+    line-height: normal;
+    vertical-align: baseline;
+    background: black;
+}
+
+.container > p{
+    text-align: left;
+    font-family: 'Mukta', sans-serif; color:black;
+    font-size: 15px;
+    letter-spacing: 0.10em;
+    line-height: normal;
+    background: white;
+    margin-left: 239px;
+    
+}
+
+.container > li{
+    font-family: 'Mukta', sans-serif; color:black;
+    font-size: 15px;
+    letter-spacing: 0.10em;
+    background: white;
+    margin-left: 239px;
+    margin-block-end: 10px;
+   
+    
+}
+
+.container > h2{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Mukta', sans-serif; color:#5a9b92;
+}
+
+.container2 > h1{
+    text-align: left;
+    font-family: 'Mukta', sans-serif; color:white;
+    font-size: 40px;
+    letter-spacing: 0.35em;
+    line-height: normal;
+    vertical-align: baseline;
+    background: black;
+
+}
+
+.container2 img{
+    width: 300px;
+    padding-left: 40px;
+    width: 200px;
+    float: left;
+    
+}
+
+.container2 > p{
+    text-align: left;
+    font-family: 'Mukta', sans-serif; color:black;
+    font-size: 15px;
+    letter-spacing: 0.10em;
+    line-height: normal;
+    background: white;
+    margin-left: 239px;
+    
+}
+
+.container2 > h2{
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 239px;
+    font-family: 'Mukta', sans-serif; color:#5a9b92;
+
+}
+
+
+.container3 > h1{
+    text-align: left;
+    font-family: 'Mukta', sans-serif; color:white;
+    font-size: 40px;
+    letter-spacing: 0.35em;
+    line-height: normal;
+    vertical-align: baseline;
+    background: black;
+
+}
+
+.container3 img{
+    width: 100px;
+    padding-left: 60px;
+    width: 150px;
+    float: left;
+    
+}
+
+.container3 > p{
+    text-align: left;
+    font-family: 'Mukta', sans-serif; color:black;
+    font-size: 15px;
+    letter-spacing: 0.10em;
+    line-height: normal;
+    background: white;
+    margin-left: 239px;
+    
+}
+
+.container3 > h2{
+    text-align: left;
+    font-family: 'Mukta', sans-serif; color:#5a9b92;
+    padding-top: 50px;
+    margin-left: 239px;
+
+}
+
+.container3 > h3{
+    text-align: left;
+    font-family: 'Mukta', sans-serif; color:black;
+    font-size: 20px;
+    padding-top: -10px;
+    margin-left: 239px;
+    margin-block-start: -25px;
+
+}
+
+.container4 > h1{
+    text-align: left;
+    font-family: 'Mukta', sans-serif; color:white;
+    font-size: 40px;
+    letter-spacing: 0.35em;
+    line-height: normal;
+    vertical-align: baseline;
+    background: black;
+
+}
+
+.container4 img{
+    width: 100px;
+    padding-left: 60px;
+    width: 120px;
+    float: left;
+    
+}
+
+.container4 > p{
+    text-align: left;
+    font-family: 'Mukta', sans-serif; color:black;
+    font-size: 15px;
+    letter-spacing: 0.10em;
+    line-height: normal;
+    background: white;
+    margin-left: 239px;
+    
+}
+
+.container4 > h2{
+    text-align: left;
+    font-family: 'Mukta', sans-serif; color:#5a9b92;
+    /* font-size: 40px; */
+    padding-top: 50px;
+    margin-left: 239px;
+
+}
+
+.container4 > h3{
+    text-align: left;
+    font-family: 'Mukta', sans-serif; color:black;
+    font-size: 20px;
+    padding-top: -10px;
+    margin-left: 239px;
+    margin-block-start: -25px;
+
+}
